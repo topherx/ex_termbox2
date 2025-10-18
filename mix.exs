@@ -32,10 +32,10 @@ defmodule ExTermbox.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:elixir_make, "~> 0.6", runtime: false},
+      {:elixir_make, "~> 0.9", runtime: false},
       {:ex_doc, "~> 0.35", only: :dev, runtime: false},
       {:credo, "~> 1.7.10", only: [:dev, :test], runtime: false},
-      {:zigler, "~> 0.13.2", runtime: false}
+      {:zigler, "~> 0.15.1", github: "E-xyza/zigler", branch: "v0.15.1",runtime: false}
     ]
   end
 
